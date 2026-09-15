@@ -382,7 +382,7 @@ Reference implementations. Read the licence and the last commit date before runn
   - **Phase:** unmaintained · **Reviewed:** Sep 2026
 
 - **[manifoldbot](https://github.com/microprediction/manifoldbot)**: Manifold trading bot from the microprediction project.
-- [HostDeFi](https://hostdefi.com/api/v1/mcp) - Hosted MCP server: free token-safety scans (A+–F grades) across Solana and 8 EVM chains, plus x402-paid analytics endpoints.
+- [HostDeFi](https://hostdefi.com/api/v1/mcp) - Hosted MCP server: free token-safety scans (A+–F grades) across Solana and 7 EVM chains, plus x402-paid analytics endpoints.
 
   - **Licence:** MIT · **Stars:** 13 · **Last commit:** Jan 2026
   - **Phase:** stale · **Reviewed:** Sep 2026
