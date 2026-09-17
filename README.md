@@ -4,7 +4,7 @@
 
 ![Maintained](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)
-![Entries](https://img.shields.io/badge/entries-67-informational.svg)
+![Entries](https://img.shields.io/badge/entries-68-informational.svg)
 
 > A researched directory of the **developer side** of prediction markets: APIs, SDKs, MCP servers, historical order book data, and the agent tooling built on top of them.
 > Covering Polymarket, Kalshi, Manifold, Limitless, Smarkets and the wider forecasting ecosystem.
@@ -243,6 +243,11 @@ Model Context Protocol servers and agent frameworks that reach prediction market
   - **Pricing:** not publicly listed.
   - **Phase:** beta · **Reviewed:** Sep 2026
 
+- **[HostDeFi](https://hostdefi.com/docs/api/)**: Hosted MCP server exposing Polymarket market listings and 24-hour odds history, alongside multi-chain token-risk and EVM swap tools.
+  - **Best for:** lightweight Polymarket odds monitoring inside an agent that also needs token-risk checks.
+  - **Pricing:** free token scans (100/day per IP); Polymarket tools cost $0.005–$0.02 per call via [x402](https://hostdefi.com/api/v1/x402/pricing).
+  - **Phase:** live · **Reviewed:** Sep 2026
+
 [↑ Back to top](#top)
 
 ---
@@ -382,8 +387,6 @@ Reference implementations. Read the licence and the last commit date before runn
   - **Phase:** unmaintained · **Reviewed:** Sep 2026
 
 - **[manifoldbot](https://github.com/microprediction/manifoldbot)**: Manifold trading bot from the microprediction project.
-- [HostDeFi](https://hostdefi.com/api/v1/mcp) - Hosted MCP server: free token-safety scans (A+–F grades) across Solana and 7 EVM chains, plus x402-paid analytics endpoints.
-
   - **Licence:** MIT · **Stars:** 13 · **Last commit:** Jan 2026
   - **Phase:** stale · **Reviewed:** Sep 2026
 
