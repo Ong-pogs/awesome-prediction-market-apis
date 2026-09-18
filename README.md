@@ -371,6 +371,11 @@ Reference implementations. Read the licence and the last commit date before runn
   - **Pricing:** free, open source.
   - **Phase:** live · **Reviewed:** Sep 2026
 
+- **[Homerun](https://github.com/braedonsaunders/homerun)**: Open-source prediction market trading platform for Polymarket and Kalshi with Python strategies, backtesting, paper and live trading, and a real-time dashboard.
+  - **Licence:** AGPL-3.0 · **Stars:** 179 · **Last commit:** Aug 2026
+  - **Pricing:** free, open source.
+  - **Phase:** live · **Reviewed:** Sep 2026
+
 - **[OctoBot Prediction Market](https://github.com/Drakkar-Software/OctoBot-Prediction-Market)**: Prediction market module for the OctoBot trading framework.
   - **Licence:** GPL-3.0 · **Stars:** 113 · **Last commit:** Mar 2026
   - **Pricing:** free, open source.
