@@ -31,7 +31,7 @@ Every record carries honest-data fields (`asOf`, `provenance`, `capabilities`), 
 - **Phase:** API live · packages on `1.0.0-beta.6` (npm) and `1.0.0b4` (PyPI), MIT.
 - **Reviewed:** Sep 2026
 
-👉 **Docs and a free key:** **https://docs.predictefy.com** · [portal.predictefy.com/keys](https://portal.predictefy.com/keys?utm_source=awesome-prediction-market-apis)
+👉 **API overview:** [Predictefy API](https://predictefy.com/en/api) · **Docs and a free key:** **https://docs.predictefy.com** · [portal.predictefy.com/keys](https://portal.predictefy.com/keys?utm_source=awesome-prediction-market-apis)
 
 ---
 
