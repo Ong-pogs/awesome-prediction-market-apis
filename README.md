@@ -265,6 +265,11 @@ Model Context Protocol servers and agent frameworks that reach prediction market
 
 Same outcome, different venues. A price gap observed on mid-prices is an **indicative discrepancy**, not an executable trade, until it is checked against live asks, depth, fees and resolution equivalence.
 
+- **[PolyKal Fees](https://polymarket-kalshi.com/fee-schedule/)**: Free JSON of current Kalshi and Polymarket trading-fee rates, formulas and per-category constants, each with a primary source and a verification date, including Polymarket's declared-vs-on-chain-verified rates.
+- **Best for:** wiring correct, dated fee constants into a bot without scraping two vendor docs.
+- **Pricing:** free, CC-BY. Endpoint: /data/fees.json (CORS *).
+- **Phase:** live · **Reviewed:** Sep 2026
+
 - **[MetaForecast](https://metaforecast.org/)**: Meta search across prediction markets and forecasting platforms, presenting and sharing probability estimates from many sources.
   The most cross-listed tool in this space, appearing in four of the eight source lists surveyed.
   - **Best for:** finding every venue that prices a given question.
