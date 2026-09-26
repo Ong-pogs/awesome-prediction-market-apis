@@ -178,6 +178,13 @@ Venue-specific clients and harnesses. Check the commit date before you build on 
   - **Pricing:** free, open source.
   - **Phase:** live · **Reviewed:** Sep 2026
 
+- **[Dimes SDK](https://github.com/dimes-fi/dimes-sdk)**: TypeScript client that lets a Polymarket front-end offer its users 2x–10x leveraged positions through one integration, with [Dimes](https://dimes.fi) supplying the credit and hedging the position on Polymarket.
+  Published on npm as [`@dimes-dot-fi/sdk`](https://www.npmjs.com/package/@dimes-dot-fi/sdk); settles in USDC on Polygon, with a sandbox mode. Partner API keys are issued through onboarding rather than self-serve, and there is no public Python client. Binary markets can jump to 0 at resolution with no liquidation window, so read the [fee](https://docs.dimes.fi/positions/fees-and-revenue-share) and deleveraging docs before building on it.
+  - **Best for:** front-ends and wallets that want to add leverage without running their own credit or liquidation engine.
+  - **Licence:** MIT · **Stars:** 0 · **Last commit:** Jul 2026
+  - **Pricing:** SDK free and open source. Positions pay protocol fees (entry, time-based, liquidation); the integrating app sets its own origination fee.
+  - **Phase:** live · **Reviewed:** Sep 2026
+
 
 [↑ Back to top](#top)
 
@@ -329,11 +336,6 @@ Same outcome, different venues. A price gap observed on mid-prices is an **indic
   - **Best for:** a secondary data reference.
   - **Pricing:** not publicly listed.
   - **Phase:** live · **Reviewed:** Sep 2026
-
-- **[Dimes](https://dimes.fi)**: Leverage product for prediction markets.
-  - **Best for:** teams evaluating leveraged exposure. Understand the liquidation mechanics first.
-  - **Pricing:** paid; access is waitlisted.
-  - **Phase:** beta · **Reviewed:** Sep 2026
 
 [↑ Back to top](#top)
 
