@@ -342,6 +342,12 @@ Same outcome, different venues. A price gap observed on mid-prices is an **indic
   - **Pricing:** not publicly listed.
   - **Phase:** live · **Reviewed:** Sep 2026
 
+- **[PMWallets](https://pmwallets.com/docs)**: Polymarket trader data API: a leaderboard computed from its own Polygon ledger over REST, and every fill of the traders you follow over WebSocket or signed webhook.
+  Frames carry `session` and `seq` so gaps can be replayed from `GET /v1/account/fills`; MIT SDKs for Node.js ([`pmwallets`](https://www.npmjs.com/package/pmwallets)) and Python ([`pmwallets`](https://pypi.org/project/pmwallets/)) handle reconnects and de-duplication.
+  - **Best for:** bots that need a followed Polymarket trader's fills as they happen, with gap replay.
+  - **Pricing:** leaderboard sample without a key, 20,000 rows a day with a free account's key; fill feed $0.01 per wallet per hour; plans $4.99 / $14.99 / $39.99 a month.
+  - **Phase:** live · **Reviewed:** Oct 2026
+
 [↑ Back to top](#top)
 
 ---
