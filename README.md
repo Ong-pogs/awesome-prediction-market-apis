@@ -110,6 +110,19 @@ The hardest data to get, and where most integrations stall. Midpoints are cheap;
   - **Pricing:** free tier and a published pricing page; API key required.
   - **Phase:** live · **Reviewed:** Sep 2026
 
+- **[Resolved Markets](https://resolvedmarkets.com)**: Full-depth Polymarket order book snapshots since March 2026, captured at about 20 Hz for crypto and 2 Hz for sports, with trades and settlement results, over REST, WebSocket and a hosted MCP server.
+  Also covers weather, economics and equities markets, and Hyperliquid perpetual futures books.
+  - **Best for:** sub-second backtests of Polymarket crypto up/down markets, starting on a free key.
+  - **Pricing:** free tier (5,000 credits/month, crypto markets); paid plans from $17/month on a published pricing page. API key required.
+  - **Phase:** live · **Reviewed:** Sep 2026
+
+- **[resolvedkit](https://github.com/resolvedmarkets/resolvedkit)**: Python backtester that fills Polymarket orders by walking the historical order book level by level, with Polymarket's taker-fee curve, order latency and settlement at the real resolution.
+  Runs on a bundled sample or local Parquet without an API key; can pull history from Resolved Markets.
+  - **Best for:** checking whether a strategy's edge survives real depth and fees.
+  - **Licence:** MIT · **Stars:** 1 · **Last commit:** Sep 2026
+  - **Pricing:** free, open source.
+  - **Phase:** live · **Reviewed:** Sep 2026
+
 - **[TickFoundry](https://tickfoundry.com/)**: Every order, book update and trade captured live from Polymarket and delivered as replayable history, including L1 quotes.
   - **Best for:** firms that want the raw tape delivered rather than collected.
   - **Pricing:** paid, with a published pricing page. Access is waitlisted.
