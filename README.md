@@ -133,6 +133,12 @@ The hardest data to get, and where most integrations stall. Midpoints are cheap;
   - **Pricing:** not publicly listed.
   - **Phase:** live · **Reviewed:** Sep 2026
 
+- **[outcometick](https://outcometick.com)**: Tick-level history of the Polymarket and Predict.fun crypto Up/Down markets, with the Chainlink streams they settle on, order books and each market's strike and outcome, downloaded by API as checksummed CSV and JSONL.
+  Polymarket also has trade prints and book updates between full-depth snapshots; Predict.fun books are snapshots only. Archived since June 2026, published two days behind.
+  - **Best for:** backtesting short-dated crypto Up/Down strategies and recomputing settlements from the Chainlink feed.
+  - **Pricing:** $10/mo per venue ($18 for both) for the newest 30 days; one-time date ranges from $0.40/day; free sample day per venue. API key required.
+  - **Phase:** live · **Reviewed:** Oct 2026
+
 - **[Prediction Market Analysis](https://github.com/Jon-Becker/prediction-market-analysis)**: Open research repository analysing prediction market behaviour, with the analysis code published alongside.
   - **Best for:** reading a full methodology rather than trusting a chart.
   - **Licence:** MIT · **Stars:** 3.8k · **Last commit:** Aug 2026
