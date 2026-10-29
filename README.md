@@ -274,6 +274,12 @@ Model Context Protocol servers and agent frameworks that reach prediction market
   - **Pricing:** free token scans (100/day per IP); Polymarket tools cost $0.005–$0.02 per call via [x402](https://hostdefi.com/api/v1/x402/pricing).
   - **Phase:** live · **Reviewed:** Sep 2026
 
+- **[Lucyd MCP](https://github.com/Lucyd-trade/mcp-server)**: MCP server for Lucyd's onchain Bitcoin Up/Down markets (5m to daily): markets, order books, limit and market orders, positions, P&L and redemptions.
+  npm `@lucyd/mcp`, keys stay local, read-only without a key; hosted read-only endpoint at `https://mcp.lucyd.trade/mcp`. Lucyd currently runs on Sepolia testnet.
+  - **Best for:** agents that need to read and trade short-dated BTC Up/Down markets on a CLOB.
+  - **Licence:** MIT · **Stars:** 0 · **Last commit:** Oct 2026
+  - **Phase:** beta · **Reviewed:** Oct 2026
+
 [↑ Back to top](#top)
 
 ---
