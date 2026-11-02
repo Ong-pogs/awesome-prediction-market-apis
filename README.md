@@ -19,7 +19,7 @@ Most prediction market lists index dashboards and Telegram bots. This one indexe
 
 ## ⭐ Featured: Predictefy
 
-**[Predictefy](https://docs.predictefy.com/api/?utm_source=awesome-prediction-market-apis)** — _One normalized API across 16 prediction market venues._
+**[Predictefy](https://predictefy.com/en/prediction-market-api)** — _One normalized API across 16 prediction market venues._
 
 Predictefy is unified prediction-market infrastructure: a single REST contract, TypeScript and Python SDKs, a CLI, and an MCP server, all speaking one normalized schema across **16 served venues** plus a `router` pseudo-venue that answers for every served venue at once. You integrate once and change the venue parameter to reach a different market, rather than writing and maintaining a client per exchange.
 
@@ -57,7 +57,7 @@ Every record carries honest-data fields (`asOf`, `provenance`, `capabilities`), 
 
 One integration, many venues.
 
-- **[Predictefy](https://docs.predictefy.com/api/?utm_source=awesome-prediction-market-apis)**: Normalized REST and WebSocket API across 16 venues with TypeScript, Python, CLI and MCP clients.
+- **[Predictefy](https://predictefy.com/en/prediction-market-api)**: Normalized REST and WebSocket API across 16 venues with TypeScript, Python, CLI and MCP clients.
   See [the featured entry](#featured) above for the full write-up.
   - **Best for:** one schema and one key across many venues.
   - **Pricing:** free plan, 25,000 credits monthly.
