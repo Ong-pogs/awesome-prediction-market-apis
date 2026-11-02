@@ -517,7 +517,7 @@ The exchanges themselves, listed where a documented public API exists.
   Public endpoints need no account; trading uses Sign-In With Solana and a session key that signs orders locally. Settlement in native USDC.
   - **Best for:** bots and market makers that want a CLOB venue on Solana.
   - **Pricing:** free API access; taker fee 7% × p × (1 − p) per share, makers get 20% of it back.
-  - **Phase:** live · **Reviewed:** Oct 2026
+  - **Phase:** beta · **Reviewed:** Oct 2026
 
 [↑ Back to top](#top)
 
