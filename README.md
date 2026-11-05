@@ -286,6 +286,12 @@ Model Context Protocol servers and agent frameworks that reach prediction market
 
 <a name="cross-venue-comparison--price-gaps"></a>
 
+- **[Rizon MCP](https://rizon.markets/docs)**: Hosted MCP server at `https://rizon.markets/mcp` for a paper-money exchange: read live books on Bitcoin, gold and the NFL, and place practice orders.
+  It's practice money on Rizon's own contract, which pays a fixed 2× on a book of strikes, not access to Polymarket or Kalshi.
+  - **Best for:** letting an AI agent test order handling with no sign-up and nothing at risk.
+  - **Pricing:** free.
+  - **Phase:** live · **Reviewed:** Nov 2026
+
 ## 🔀 Cross-Venue Comparison & Price Gaps
 
 Same outcome, different venues. A price gap observed on mid-prices is an **indicative discrepancy**, not an executable trade, until it is checked against live asks, depth, fees and resolution equivalence.
