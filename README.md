@@ -79,6 +79,12 @@ One integration, many venues.
   - **Pricing:** not publicly listed on the example page; see Bitquery's own plans.
   - **Phase:** live · **Reviewed:** Sep 2026
 
+- **[pdata](https://pdata.world/agents)**: Read-only REST API, hosted MCP server, nightly bulk files and Postgres endpoint with prices, 24h volume and results for 8 venues (Polymarket, Kalshi, Manifold, Myriad, Limitless, Predict, Opinion, Gemini) in one schema.
+  No key or account, CC BY 4.0. Price history since May 2026; volume stays in each venue's own unit (Polymarket shares, Kalshi contracts, Manifold play money).
+  - **Best for:** reading the same fields from eight venues without writing a client per venue.
+  - **Pricing:** free, no key or signup; fair use 50 requests a second per IP.
+  - **Phase:** live · **Reviewed:** Nov 2026
+
 [↑ Back to top](#top)
 
 ---
