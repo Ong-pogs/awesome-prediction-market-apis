@@ -295,6 +295,12 @@ Same outcome, different venues. A price gap observed on mid-prices is an **indic
   - **Pricing:** free, CC-BY. Endpoint: /data/fees.json (CORS *).
   - **Phase:** live · **Reviewed:** Sep 2026
 
+- **[pmfees](https://github.com/swaphunt/pmfees)**: Python library and CLI that computes exact trading fees and break-even prices for Kalshi, Polymarket US and polymarket.com, with each platform's rounding rules and a dated source for every rate.
+  - **Best for:** fee-aware position sizing and break-even checks in Python code.
+  - **Licence:** MIT · **Stars:** 0 · **Last commit:** Nov 2026
+  - **Pricing:** free, open source.
+  - **Phase:** live · **Reviewed:** Nov 2026
+
 - **[MetaForecast](https://metaforecast.org/)**: Meta search across prediction markets and forecasting platforms, presenting and sharing probability estimates from many sources.
   The most cross-listed tool in this space, appearing in four of the eight source lists surveyed.
   - **Best for:** finding every venue that prices a given question.
