@@ -289,6 +289,12 @@ Model Context Protocol servers and agent frameworks that reach prediction market
 ## 🔀 Cross-Venue Comparison & Price Gaps
 
 Same outcome, different venues. A price gap observed on mid-prices is an **indicative discrepancy**, not an executable trade, until it is checked against live asks, depth, fees and resolution equivalence.
+- **[Can I Bet In?](https://canibetin.com)**: Matches the same outcome across Kalshi, Polymarket and PredictIt about every 60 seconds, with a public JSON feed and a sourced-and-dated US legality map.
+  Gaps shown are mid-price discrepancies until checked against live depth, fees and resolution wording.
+  - **Best for:** a no-signup, no-key snapshot of the same outcome across three venues, and whether a US resident can use those venues.
+  - **Pricing:** free.
+  - **Phase:** live · **Reviewed:** Nov 2026
+
 
 - **[PolyKal Fees](https://polymarket-kalshi.com/fee-schedule/)**: Free JSON of current Kalshi and Polymarket trading-fee rates, formulas and per-category constants, each with a primary source and a verification date, including Polymarket's declared-vs-on-chain-verified rates.
   - **Best for:** wiring correct, dated fee constants into a bot without scraping two vendor docs.
