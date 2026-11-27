@@ -280,6 +280,11 @@ Model Context Protocol servers and agent frameworks that reach prediction market
   - **Licence:** MIT · **Stars:** 0 · **Last commit:** Oct 2026
   - **Phase:** beta · **Reviewed:** Oct 2026
 
+- **[Tereno](https://www.tereno.xyz/docs/mcp)**: Hosted MCP server (`https://www.tereno.xyz/api/mcp`, npm `tereno-mcp`) and REST API auditing Kalshi CFTC contract rules (`rules_primary`, early-close clauses, designated settlement sources) and Polymarket UMA Optimistic Oracle / 50-50 fallback risk before execution, including cross-venue rule divergence checks (`market: "cross-venue"`). Read-only verification with hashed receipts and shared cross-agent cache; does not place bets or estimate probabilities.
+  - **Best for:** checking resolution equivalence, early-close clauses, and dispute risk across Kalshi and Polymarket before acting on a price gap.
+  - **Pricing:** 1 free daily check per IP over MCP; paid calls $0.05 cold / $0.01 cached via x402 USDC on Base or prepaid Base USDC API keys (20% credit back to the first verifier on cross-agent reuse).
+  - **Phase:** live · **Reviewed:** Nov 2026
+
 [↑ Back to top](#top)
 
 ---
